@@ -1,0 +1,20 @@
+:root{
+    --shadow-1: 0px 3px 20px hsla(180, 90%, 43%, 0.2);
+
+    --bg-carolina-blue: hsla(199, 89%, 49%, 1);
+    --bg-prussian-blue: #556a88;
+   
+    --transition-1: 0.25s ease;
+}
+
+#input-wrapper{
+    padding: 10px;
+    padding-inline-start: 20px;
+    background-color: var(--bg-prussian-blue);
+    border-radius: 20px;
+    border: 1px solid var(--bg-carolina-blue);
+    display: flex;
+    justify-items: flex-end;
+    transition: var(--transition-1);
+  }
+  #input-wrapper:hover { box-shadow: var(--shadow-1); }
